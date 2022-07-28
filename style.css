@@ -1,0 +1,146 @@
+h2{
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+/*Layout One*/
+
+.box{
+    border: 4px solid lightgray;
+    width: 100px;
+    height: 100px;
+}
+
+.box-small{
+    width: 50px;
+    height: 50px;
+    margin-left: 24px;
+}
+
+.box-wrapper{
+    display: flex;
+    align-items: center;
+}
+.container{
+    border: 4px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+/*Layout Two*/
+*{
+    box-sizing: border-box;
+}
+
+.container-two{
+    border: 4px solid lightgray;
+    padding: 24px 24px 0 24px;
+    margin-top: 24px;
+}
+
+.row-two{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    /*Or  
+    display: flex;
+    justify-content: center;
+    in container-two. Yet, when working with rows use margin: 0 auto;*/ 
+}
+
+.title-two{
+    border: 2px solid lightgray;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 24px;
+}
+
+.box-two{
+    border: 4px solid lightgray;
+    width: 30%;
+    height: 100px;
+    margin-bottom: 24px;
+}
+
+.box-wrapper-two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*Layout Three*/
+.container-three{
+    border: 4px solid lightgray;
+    padding: 24px 24px 0 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.box-three{
+    border: 4px solid lightgray;
+    margin-bottom: 24px;
+}
+
+.box-three-small{
+    height: 50px;
+}
+
+.box-wrapper-three{
+    width: 45%;
+    /*Remember this
+    display: flex;
+    flex-direction: column;*/
+}
+
+.box-large{
+    width: 45%;
+}
+
+/*Layout Four*/
+
+.container-four{
+    border: 4px solid lightgray;
+    padding: 80px 24px 80px 24px;
+    margin-top: 24px;
+}
+
+.row-four{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto -24px auto;
+}
+
+.box-four{
+    border: 4px solid lightgray;
+    margin-bottom: 24px;
+}
+
+.box-tiny{
+    width: 30%;
+    height: 50px;
+}
+
+.tiny-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-four-small{
+    height: 50px;
+}
+
+.box-wrapper-four{
+    width: 45%;
+    /*Remember this
+    display: flex;
+    flex-direction: column;*/
+}
+
+.box-four-large{
+    width: 45%;
+}
